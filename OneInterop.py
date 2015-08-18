@@ -21,6 +21,6 @@ session = api.joinSession(26)
 print "Test is running ......"
 result = session.runTest()
 
-save_path = "/Users/ubnt/Documents/testResults.zip"
+save_path = "/Users/ubnt/Documents/testResultszzz.zip"
 with open(save_path, "a+") as statsFile:
 	api.getStatsCsvZipToFile(result.testId, statsFile)
